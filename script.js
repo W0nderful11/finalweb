@@ -7,7 +7,7 @@ let currentTheme = 'light';
 /**
  * Load articles from JSON file and initialize the dashboard
  */
-fetch('articles.json')
+fetch('Articles.json')
     .then(response => response.json())
     .then(data => {
         articles = data.articles;
